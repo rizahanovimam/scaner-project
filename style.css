@@ -1,18 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 p {
     font-family:'Courier New', Courier, monospace;
 }
 
+h1 {
+    font-family:'Courier New', Courier, monospace;
+}
+
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
     height: 15vh;
+    padding: 0 30px;
     background-color: blueviolet;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
