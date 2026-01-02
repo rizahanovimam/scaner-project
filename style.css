@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 20vw;
+    height: 13vh;
+    background-color: blueviolet;
+    border: 1px rgba(0, 0, 0, 0.378) solid;    
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(101, 24, 173);
+}
